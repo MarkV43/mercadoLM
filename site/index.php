@@ -1,8 +1,8 @@
 <?php
-	session_start();
+	/*session_start();
 	if (!isset($_SESSION['logad']) || !$_SESSION['logad'])
 		include "login.php";
-	//Incluir a conexão com banco de dados
+	//Incluir a conexão com banco de dados*/
 	include 'conexao.php';
 	include 'funcoes.php';
 	include 'Conversor.php';
@@ -104,10 +104,3 @@
 
 </html>
 
-<?php
-	$nasc = explode("-", $_SESSION['aniv']);
-	if(!$_SESSION['comemorado'] && $nasc && $nasc[1] == date("m") && $nasc[2] == date("d")){
-		echo "<script>alert('Feliz aniversário {$_SESSION['usuar']}')</script>";
-		$_SESSION['comemorado'] = true;
-	}
-?>
