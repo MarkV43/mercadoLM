@@ -1,0 +1,410 @@
+#imagem-topo {
+	width: 80%;
+    height: 200px;
+    background-color: black;
+    margin: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: right;
+}
+
+/*Referencia do elemento pelo id*/
+#conteudo-principal {
+	width: 80%;
+    margin: 0 auto;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+/*Referencia pelo nome da tag*/
+footer {
+	width: 80%;
+    height: 40px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.listagem {
+    margin-top: 12px;
+    width: 100%;
+}
+
+
+.listagem thead tr th {
+    padding: 10px;
+    background: darkcyan;
+    color: white;
+    font-style: normal;
+}
+
+.listagem thead tr th:first-child{
+    border-top-left-radius: 5px;
+}
+
+.listagem thead tr th:last-child{
+    border-top-right-radius: 5px;
+}
+
+.listagem tbody tr td {
+    border: 1px solid lightslategray;
+    text-align: center;
+    padding: 5px;
+}
+
+.listagem tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+.listagem tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+.listagem tbody tr:hover {
+    cursor: auto;
+    background: #e6e1ff;
+    color: black;
+}
+
+.listagem tbody a{
+    text-decoration: none;
+    color: crimson;
+}
+
+.item-form > label {
+	display: block !important;
+}
+
+.item-form > label, .item-form h3, .item-form h2 {
+	display: inline;
+	color: #666;
+	font-weight: bold;
+}
+
+.item-form > input {
+	border-radius: 3px;
+    border: 1px solid #8e838f;
+    width: 50%;
+    margin: 5px 0px;
+}
+
+.item-form select {
+	border-radius: 3px;
+    border: 1px solid #8e838f;
+    margin: 5px 0px;
+}
+
+.formulario {
+	background-color: #F9F9F9;
+    padding: 20px;
+    border:1px solid #DDD;
+    border-radius:5px;
+    box-shadow: 5px 5px 5px #CCC;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 60%;
+    margin-top: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+.listagem a {
+	width: 100%;
+}
+
+/*-----------------------------*/
+
+.cellE {
+	background: white;
+	transition: 3s;
+}
+
+.cellE:hover{
+    background: linear-gradient(darkcyan, lightseagreen);
+
+}
+
+.cellE:hover a{
+    color: white;
+	/*transition: .2s;*/
+
+}
+
+/*-----------------------------*/
+
+.cellD:hover{
+    background: linear-gradient(darkred, firebrick);
+	transition: .3s;
+}
+
+.cellD:hover a{
+    color: white;
+	transition: .3s;
+}
+
+/*-----------------------------*/
+
+.expandir, .expandir:hover, .expandir:active {
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 23px;
+	display: table-cell;
+	width: 45px !important;
+	height: 45px;
+	margin: 0;
+	padding: 0;
+}
+
+header nav {
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+    background: crimson;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    z-index: 5;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    width: auto;
+    display: inline-flex;
+    margin: 0;
+    line-height: 40px;
+}
+
+header nav ul li a {
+    color: white;
+    padding: 0px 14px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    width: 100%;
+    margin: 0;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    border-left: 1px solid rgba(255, 255, 255, 0.45);
+    border-right: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+header nav ul li a:hover, nav .active {
+    -webkit-box-shadow: 0px 3px 30px rgba(255, 255, 255, 0.4) inset, 0px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 30px rgba(255, 255, 255, 0.4) inset, 0px 5px 5px rgba(0, 0, 0, 0.2);
+    margin: 0 5px;
+    position: relative;
+    z-index: 10;
+    padding: 0 12px;
+    font-size: 102%;
+    text-decoration: none;
+    color: white;
+}
+
+.control-form {
+	display: -webkit-flex;
+	display: flex;
+}
+
+.control-form > * {
+	width: 100%;
+}
+
+.control-form > *:not(:first-child) {
+	margin-left: 5px;
+}
+
+td.img, td.img img {
+	width: 100px;
+	transition: .5s;
+}
+
+td.img img:hover {
+	width: 200px;
+	transition: 1s;
+}
+
+.item-form > img {
+	width: 100%;
+}
+
+fieldset > legend {
+	border: 1px black solid;
+	width: auto;
+	margin-left: 25px;
+	margin-bottom: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+fieldset {
+	border: 1px black solid;
+	margin-top: 0;
+}
+
+fieldset label:last-child {
+text-align: center;
+}
+
+fieldset input[type="url"] {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#divExp {
+	display: none;
+    position: fixed;
+    z-index: 10;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+#expandido {
+	position: relative;
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 500px;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-300px;opacity:0}
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top:-300px;opacity:0}
+    to {top: 0; opacity: 1}
+}
+
+.voltar {
+	background-color: #CCCCCC;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    color: darkcyan;
+    transition: all 0.3s;
+    display: inline-block;
+}
+
+.voltar:hover {
+	background-color: darkslategrey;
+    color: white;
+}
+
+.voltar span {
+	display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+.voltar:hover span {
+	padding-left: 15px;
+}
+
+.voltar span::before {
+    content: '«';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.3s;
+}
+
+.voltar:hover span::before {
+    opacity: 1;
+    left: 0;
+}
+
+.avancar {
+	background: crimson;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    transition: all 0.3s;
+
+
+}
+
+.avancar:hover {
+    background: darkcyan;
+    color: white;
+}
+
+.avancar span {
+	display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+.avancar span::after {
+	content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+
+.avancar:hover span {
+	padding-right: 15px;
+}
+
+.avancar:hover span::after {
+	opacity: 1;
+    right: 0;
+}
+
+.voltar, .avancar {
+	outline: none;
+}
+
+.usercard {
+	color: white;
+	display: inline-block;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	text-align: right;
+}
+
+.usercard a {
+	border-radius: 5px;
+	background: linear-gradient(darkred, firebrick);
+	padding: 5px 15px;
+	text-decoration: none;
+	justify-content: center;
+	color: white;
+	display: inline-block;
+}
+
+.usercard a:hover {
+	    box-shadow: 0px 3px 30px rgba(255, 255, 255, 0.4) inset;
+}

@@ -1,0 +1,2 @@
+<a href="index.php?pagina=<?= $tipo ?>_excluir&id=<?php echo $id; ?>&confirmar" class="btn btn-danger">Confirmar Exclusão</a>
+<a href="index.php?pagina=<?= $tipo ?>_listar" class="btn btn-default">Cancelar</a>
