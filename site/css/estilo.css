@@ -1,0 +1,13 @@
+/*****************************************/
+/******************TOPO*******************/
+/*****************************************/
+
+header .bigSquare {
+	transform: rotate(45deg);
+	background: #a88bdd;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 41px;
+	left: 41px;
+}

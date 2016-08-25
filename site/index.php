@@ -90,15 +90,9 @@
 <!-- INICIO DO CONTEÚDO DO SITE -->
 <section id="conteudo-principal">
 
-	<?php include $pagina == "inicio" ? "inicio.php" : "modulos/$tipo/$sufx.php"; ?>
 
 </section>
 <!-- FIM DO CONTEÚDO DO SITE -->
-
-<?php
-	//Incluir rodapé do site
-	include 'rodape.php';
-?>
 
 </body>
 
