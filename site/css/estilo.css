@@ -4,41 +4,10 @@
 
 header .bigSquare {
 	transform: rotate(45deg);
-	width: 160px;
-	height: 160px;
-	position: absolute;
-	top: 83px;
-	display: inline-block;
-}
-
-header .bigSquare:first-child {
-	left: -80px;
-}
-
-header .bigSquare:last-child {
-	right: -80px;
-}
-
-header .barra, header .bigSquare {
 	background: #a88bdd;
-}
-
-header .medSquare {
-	background-color: white;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	width: 110px;
-	height: 110px;
-}
-
-header .smaSquare {
-	background-color: #c6ff00;
-	height: 50px;
-	width: 50px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 41px;
+	left: 41px;
 }
